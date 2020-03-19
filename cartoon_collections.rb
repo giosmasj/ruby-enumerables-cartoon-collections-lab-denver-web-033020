@@ -37,9 +37,9 @@ snacks = w%
   thyme
 ]
 
-def find_the_cheese(array)
+def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find { |a| cheese_types.include?(a) }
+  snacks.find { |a| cheese_types.include?(a) }
 end
 end
 
