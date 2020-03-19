@@ -37,7 +37,7 @@ snacks = w%
   thyme
 ]
 
-def find_the_cheese(Array)
+def find_the_cheese(array)
   cheese_types = w%[cheddar gouda camembert]
   
   snacks.find do |cheese|
