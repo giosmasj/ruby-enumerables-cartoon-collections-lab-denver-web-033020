@@ -30,6 +30,13 @@ end
 
 long_planeteer_calls(planeteer_calls)
 
+snacks = w%
+[
+  crackers
+  cheddar
+  thyme
+]
+
 def find_the_cheese(snacks)
   cheese_types = w%[cheddar gouda camembert]
   
